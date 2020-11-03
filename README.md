@@ -214,8 +214,49 @@ Multiple R-squared:  0.01046,	Adjusted R-squared:  0.01044
 F-statistic: 692.6 on 3 and 196581 DF,  p-value: < 2.2e-16
 
 `````
+Output 5 :In this regression model, we did an interaction of a binary and continuous variable, age being continuous and veteran-status being binary. Age is statistically significant with 99.9% confidence, while Veteran status is statistically significant with 99.1% confidence. The interaction term was not statistically significant meaning the age premium does not depend on veteran status in this model. Veteran status appears to have a significantly lower t-statistic suggesting why age and veteran status are not dependent.
 
 `
+````
+linearHypothesis(output, c("AGE=AGE2"))
+Linear hypothesis test
+
+Hypothesis:
+AGE - AGE2 = 0
+
+Model 1: restricted model
+Model 2: POVERTY ~ AGE + AGE2 + AGE3 + college + college2
+
+  Res.Df        RSS Df Sum of Sq      F    Pr(>F)    
+1 196580 5433289582                                  
+2 196579 5375956802  1  57332780 2096.4 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+> linearHypothesis(output, c("AGE3=0"))
+Linear hypothesis test
+
+Hypothesis:
+AGE3 = 0
+
+Model 1: restricted model
+Model 2: POVERTY ~ AGE + AGE2 + AGE3 + college + college2
+
+  Res.Df        RSS Df Sum of Sq      F    Pr(>F)    
+1 196580 5488182785                                  
+2 196579 5375956802  1 112225983 4103.7 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+````
+We did a F-test whether the relationship of the variables is linear or is a polynomial of order J. We use the F- statistic because the marginal effect of X1 involves multiple Betas . We reject the null hypothesis because it is jointly significantly significant. 
+
+
+We did a F-test whether the relationship is cubic or quadratic. The F statistic is statistically significant, so we reject the null hypothesis, Therefore, the model has a cubic relationship. 
+
+````
+
+
+
 
 
 
