@@ -183,7 +183,6 @@ Multiple R-squared:  0.006796,	Adjusted R-squared:  0.006791
 F-statistic:  1345 on 1 and 196583 DF,  p-value: < 2.2e-16
 
 ```
-```
 
 Output 4: We created a regression comparing the log of poverty and age. Percentage chances are useful for judging economic significance of estimates. This regression model is a log-log function, so we are finding the elasticity. We determined that a 1 percent increase in AGE leads to a 14.3  percent increase in our poverty ratio.  The standard residual error became 1.479, the model significantly improved because outliers were removed through the use of log function. The higher SER means a smaller distance between the residual values and the  fitted values, thus resulting in more variation of (X)  in Y. 
 
