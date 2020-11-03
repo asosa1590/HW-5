@@ -233,6 +233,8 @@ Model 2: POVERTY ~ AGE + AGE2 + AGE3 + college + college2
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ````
+Hypothesis Test of a Quadratic 
+
 We did a F-test whether the relationship of the variables is linear or is a polynomial of order J. We use the F- statistic because the marginal effect of X1 involves multiple Betas . We reject the null hypothesis because it is jointly significantly significant. 
 
 ````
@@ -255,6 +257,7 @@ Model 2: POVERTY ~ AGE + AGE2 + AGE3 + college + college2
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 ````
+Hypothesis Test for a Polynomial
 We did a F-test whether the relationship is cubic or quadratic. The F statistic is statistically significant, so we reject the null hypothesis, Therefore, the model has a cubic relationship. 
 
 
