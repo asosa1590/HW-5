@@ -55,6 +55,8 @@ Residual standard error: 165.4 on 196579 degrees of freedom
 Multiple R-squared:  0.1303,	Adjusted R-squared:  0.1302 
 F-statistic:  5888 on 5 and 196579 DF,  p-value: < 2.2e-16
 ````
+`````
+
 
 Output 1: In our Regression Model for Output 1 we wanted to interpret poverty in the PUMS data set by considering age, age value squared, age value cubed, college education and advanced college education. Based on the regression model we determined that all variables tested in the model were statistically significant. However, College Degree and Advanced Degree had the highest t-values in our model and therefore we concluded that these estimates created a positive correlation  between education and poverty. In other words higher education implied that a participant would not be in the impoverished threshold and would have a higher poverty threshold ratio. At the 95 significance level, AGE^2 and AGE^3 both had negative t values and lowered our intercept values for the regression. It;s important to note that the negative t values from the AGE based values did not greatly affect the  positive correlation between education and the poverty ratio value. Within this regression an increase of 1 percent of our poverty ratio led to a 110 increase in college degree and 142 increase in advanced degree.
 
@@ -148,6 +150,7 @@ Residual standard error: 173.7 on 196581 degrees of freedom
 Multiple R-squared:  0.04019,	Adjusted R-squared:  0.04018 
 F-statistic:  2744 on 3 and 196581 DF,  p-value: < 2.2e-16
 ```
+````
 
 Output 3: In this regression model, we have a cubic function. All the values were statistically significant, and the SER is 176.3 The turning point is  -1.559e-01/ (2*-1.474e-03), which is 53 years.  After 53 years, there is a diminishing rate of marginal returns. 
 
@@ -179,6 +182,7 @@ Residual standard error: 1.479 on 196583 degrees of freedom
 Multiple R-squared:  0.006796,	Adjusted R-squared:  0.006791 
 F-statistic:  1345 on 1 and 196583 DF,  p-value: < 2.2e-16
 
+```
 ```
 
 Output 4: We created a regression comparing the log of poverty and age. Percentage chances are useful for judging economic significance of estimates. This regression model is a log-log function, so we are finding the elasticity. We determined that a 1 percent increase in AGE leads to a 14.3  percent increase in our poverty ratio.  The standard residual error became 1.479, the model significantly improved because outliers were removed through the use of log function. The higher SER means a smaller distance between the residual values and the  fitted values, thus resulting in more variation of (X)  in Y. 
