@@ -3,6 +3,9 @@ HW 5
 
 For our Homework Assignment we decided to have the poverty vlaue as our dependent variable (Y).
 According to the PUMS data, poverty in our data set was defined as the household income divided by the previous year’s poverty threshold as determined by the Social Security Administration. As an example a participant making 40,000 a year in income, would have a poverty level of 2 if the poverty threshold were set at 20,000 dollars. Meaning the participant’s poverty ratio is above twice the poverty line.
+
+Please note that our corresponding regression graphs are attached and labled as Ouput 2 ,3 ,4 and 5
+ 
  
 `````
 
