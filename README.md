@@ -45,6 +45,7 @@ F-statistic:  5888 on 5 and 196579 DF,  p-value: < 2.2e-16
 ````
 
 
+
 ````
 > output2 <- lm(POVERTY ~ log1p(AGE), data=acs2017_ny)
 > summary(output2)
